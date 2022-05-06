@@ -1,9 +1,10 @@
-try:
+try: 
+    import os
     import bs4
     from bs4 import BeautifulSoup as btu 
     import requests as req 
     import sys 
-    import os 
+
     import time 
     
 except:
@@ -51,6 +52,6 @@ for dir in dirb: # döngüye alıp dosyayı dongü bitine kadar devam ediyor
     asl = btu(istek.content, "lxml") # web kazıma işlemine başlıyoruz, site html indiriyoruz
     al = asl.find_all(string=["404: Bu sayfa bulunamadı", "404: This page could not be found","Page Not Found","404 Not Found","404"]) # site kodlarinda bunları ariyor
     if len(al) == 0: # geri dönüşte ise içinde sayılacak bir sey yoksa Found yazicak
-        print("[+] Found {url}")
+        print(f"[+] Found {url}")
     else:
         print("Not Found ") # else ilede geri donerse Not Found olucak
