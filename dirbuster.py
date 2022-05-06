@@ -1,7 +1,8 @@
 try:
     from bs4 import BeautifulSoup as btu 
     import requests as req 
-    import sys,os
+    import sys 
+    import os 
     import time
 except:
     os.system("pip install requests")
