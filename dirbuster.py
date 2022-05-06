@@ -3,7 +3,7 @@ import os
 try:
 
     from bs4 import BeautifulSoup as btu  
-    
+    import requests as req
 
 except ModuleNotFoundError as hata:
 
@@ -13,7 +13,7 @@ except ModuleNotFoundError as hata:
 
     
 
-import requests as req
+
 
 import sys
 
