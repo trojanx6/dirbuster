@@ -2,7 +2,8 @@ import os
 
 try:
 
-    from bs4 import BeautifulSoup as btu 
+    from bs4 import BeautifulSoup as btu  
+    
 
 except ModuleNotFoundError as hata:
 
@@ -10,7 +11,7 @@ except ModuleNotFoundError as hata:
 
     os.system("pip install requests")
 
-    os.system("clear")
+    
 
 import requests as req
 
