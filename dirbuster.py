@@ -8,6 +8,32 @@ except:
     os.system("pip install beautifulsoup4 ")
     
 
+print("""
+
+><><><><><><><><><><><><><><><><><><><><><><>
+
+      |________DirBuster_________|
+
+~~~> coder by: spygoldeye
+
+~~~> version:1.v [ trial version ] 
+
+>>> [ python dirbuster.py  https://www.example.com ] <<<
+
+><><><><><><><><><><><><><><><><><><><><><><>""")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 site = input(sys.argv[0])
