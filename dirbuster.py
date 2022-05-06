@@ -1,9 +1,11 @@
 try:
+    import bs4
     from bs4 import BeautifulSoup as btu 
     import requests as req 
     import sys 
     import os 
-    import time
+    import time 
+    
 except:
     os.system("pip install requests")
     os.system("pip install beautifulsoup4 ")
