@@ -6,9 +6,9 @@ try:
 
 except ModuleNotFoundError as hata:
 
-    os.system("pip3 install beautifulsoup4 ")
+    os.system("pip install beautifulsoup4 ")
 
-    os.system("pip3 install requests")
+    os.system("pip install requests")
 
     os.system("clear")
 
