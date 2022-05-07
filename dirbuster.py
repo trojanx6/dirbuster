@@ -58,7 +58,7 @@ for dir in dirb: # döngüye alıp dosyayı dongü bitine kadar devam ediyor
 
    # time.sleep(0.3) kararsızım bund
 
-    istek = req.get(url, verify=True) # get  ile istek gönderiyoruz
+    istek = req.get(url) # get  ile istek gönderiyoruz
 
     asl = btu(istek.content, "lxml") # web kazıma işlemije başlıyoruz, site html indiriyoruz
 
