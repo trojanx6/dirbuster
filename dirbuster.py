@@ -42,9 +42,9 @@ print("""
 
 ><><><><><><><><><><><><><><><><><><><><><><>""")
 
-#site = input(sys.argv[0])
+site = input(sys.argv[0])
 
-site = "https://www.dictionary.com"
+#site = "https://www.dictionary.com"
 
 dosya = open('tr.txt','r') # Dosyayı açıyoruz
 
