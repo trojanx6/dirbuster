@@ -1,5 +1,5 @@
-from os import system
 
+import os
 try:
 
     import bs4
