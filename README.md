@@ -7,7 +7,7 @@ cd dirbuster
 ls
 chmod +x * 
 python dirbuster.py 
-Hedef site giriniz: & Enter destination address:
+Hedef site giriniz: & Enter destination.
 
 # Environments that won't work 
 Eğer web sitesinde Cloud Flare varsa engeller sürekli istek atamaya
