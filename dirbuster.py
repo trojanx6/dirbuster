@@ -19,7 +19,7 @@ print("""
 
 ><><><><><><><><><><><><><><><><><><><><><><>""")
 
-site = input("Hedef site giriniz: ")
+site = input(r"Hedef site giriniz: ")
 
 #te = "https://www.dictionary.com"
 
