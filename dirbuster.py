@@ -15,7 +15,7 @@ print("""
 
 ~~~> version:1.v [ trial version ] 
 
->>> [ python dirbuster.py  https://www.example.com ] <<<
+>>> [ python dirbuster.py  ] <<<
 
 ><><><><><><><><><><><><><><><><><><><><><><>""")
 
