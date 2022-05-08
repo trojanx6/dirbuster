@@ -15,11 +15,11 @@ print("""
 
 ~~~> version:1.v [ trial version ] 
 
->>> [ python dirbuster.py  ] <<<
+>>> [ python dirbuster.py ] <<<
 
 ><><><><><><><><><><><><><><><><><><><><><><>""")
 
-site = input(r"Hedef site giriniz: ")
+site = input("Hedef site giriniz: ")
 
 #te = "https://www.dictionary.com"
 
